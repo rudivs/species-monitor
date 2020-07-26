@@ -2,7 +2,7 @@
   "name": "species-monitor",
   "version": "0.0.1",
   "description": "A PWA for recording species presence and absence at a location",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/rudivs/species-monitor#readme",
   "devDependencies": {
+    "eslint": "^7.5.0",
     "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "@polymer/paper-button": "^3.0.1",
+    "snowpack": "^2.6.4"
   }
 }
