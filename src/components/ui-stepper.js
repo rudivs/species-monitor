@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE. */
 
 import WebComponent from "../core/webcomponent.js"
-import "/web_modules/@polymer/paper-button/paper-button.js"
+import "@polymer/paper-button/paper-button.js"
 
 const template = (count) => `
 <custom-style>
